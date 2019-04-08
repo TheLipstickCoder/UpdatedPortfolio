@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Ore Macaulay: The Lipstick Coder</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Open+Sans+Condensed:300" rel="stylesheet">
+</head>
+<body>
+  <nav class="black" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="./index.html" class="purple-text text-lighten-3 brand-logo">Ore Macaulay</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="./portfolio.html" class="purple-text text-lighten-3">Portfolio</a></li>
+        <li><a href="./contact.html" class="purple-text text-lighten-3">Contact Me</a></li>
+        <li><a href="./resume.pdf" class="purple-text text-lighten-3">Resume</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">Ore Macaulay: The Lipstick Coder
+        </a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div class="row center-align">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input class="firstName" id="first_name" type="text" class="validate">
+              <label class="purple-text text-lighten-3" for="first_name">First Name</label>
+            </div>
+            <div class="input-field col s6">
+              <input class="lastName" id="last_name" type="text" class="validate">
+              <label class="purple-text text-lighten-3" for="last_name">Last Name</label>
+            </div>
+          </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input class="emailAddy" id="email" type="email" class="validate">
+              <label class="purple-text text-lighten-3" for="email">Email Address</label>
+            </div>
+          </div>
+          <div class="row">
+            <form class="col s12" action="https://formspree.io/ore.macaulay@gmail.com" method="POST">
+              <div class="row">
+                <div class="input-field col s12">
+                  <textarea id="textarea1" class="materialize-textarea emailBody"></textarea>
+                  <label class="purple-text text-lighten-3" for="textarea1">Your Message</label>
+                </div>
+              </div>
+            </form>
+          </div>
+        </form>
+
+        <div class="row">
+            <div class="col s12 center-align">
+                <a class="waves-effect waves-light purple lighten-3 btn center-align" href="./index.html">Home
+                    <i class="material-icons right">home</i>
+                </a>
+                <a class="waves-effect waves-light purple lighten-3 btn center-align submit">Submit
+                    <i class="material-icons right">send</i>
+                </a>
+            </div>
+        </div>
+      </div>
+
+  <!--  Scripts-->
+ <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="js/contact.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  </body>
+</html>
